@@ -1,6 +1,6 @@
 const superTest = require("supertest");
 const expect = require("chai").expect;
-const env = require('./env');
+const env = require('../env');
 const request = superTest(env.url);
 
 describe("Un-authenticated", function () {
